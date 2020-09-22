@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2ba680e-8cc6-4d00-8769-ea3d347920d5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1hpUDnAuXDhbyS6qip7Hk6RAHAA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2ba680e-8cc6-4d00-8769-ea3d347920d5" name="Default Changelist" comment="" />
+      <created>1600707410383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600707410383</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="490" y="135" key="FileChooserDialogImpl" timestamp="1600708085101">
+      <screen x="0" y="0" width="1418" height="759" />
+    </state>
+    <state x="490" y="135" key="FileChooserDialogImpl/0.0.1418.759@0.0.1418.759" timestamp="1600708085101" />
+    <state x="408" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1600707416734">
+      <screen x="0" y="0" width="1418" height="759" />
+    </state>
+    <state x="408" y="204" key="com.intellij.ide.util.TipDialog/0.0.1418.759@0.0.1418.759" timestamp="1600707416734" />
+  </component>
+</project>
