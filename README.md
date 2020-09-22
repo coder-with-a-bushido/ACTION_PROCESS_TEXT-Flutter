@@ -46,6 +46,7 @@ import 'package:action_process_text/action_process_text.dart';
 ## Usage
 
 Use the constructor of the widget to initialize the action_process_text.
+'ActionProcessText.getInputText' is used to get the selected text from the android action.
 
 ```dart
 class MainPage extends StatefulWidget {
