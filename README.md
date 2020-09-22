@@ -8,4 +8,5 @@ It can be used when you need your users to have a shortcut on selecting text, an
 It can be applied in notes, dictionary, web_search, and many more kinds of apps.
 | Basic Example                        | Dictionary                         | 
 |:--------------------------------:|:------------------------------------:|
-| ![](https://imgur.com/sHkwFmf.gif) | ![](https://imgur.com/TjqiaGa.gif)|  
+| ![](https://imgur.com/TjqiaGa.gif)|  
+| ![](https://imgur.com/sHkwFmf.gif)|
