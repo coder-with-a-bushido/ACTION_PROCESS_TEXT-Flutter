@@ -9,3 +9,17 @@ It can be applied in notes, dictionary, web_search, and many more kinds of apps.
 | Basic Example                                                     | Dictionary                         | 
 |:---------------------------------------------------------------:|:------------------------------------:|
 |  ![](https://i.postimg.cc/Jn53nQFV/action-process-texttest.gif) | ![](https://i.postimg.cc/hvqSCL4j/slanganorytest.gif)|  
+
+## Include in your project
+
+```yaml
+dependencies:
+  action_process_text: <latest version>
+```
+
+Run pub get and get packages.
+Then import the package to use it.
+
+```dart
+import 'package:action_process_text/action_process_text.dart';
+```
