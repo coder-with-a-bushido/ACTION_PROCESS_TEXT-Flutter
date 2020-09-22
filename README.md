@@ -7,7 +7,7 @@ A flutter plugin for ACTION_PROCESS_TEXT implementation in android.
 It can be used when you need your users to have a shortcut on selecting text, and directly use it in your app.
 It can be applied in notes, dictionary, web_search, and many more kinds of apps.
 
-|![](https://i.postimg.cc/Jn53nQFV/action-process-texttest.gif)|![](https://i.postimg.cc/hvqSCL4j/slanganorytest.gif)|  
+|![](https://i.postimg.cc/Jn53nQFV/action-process-texttest.gif){ width=45% }|![](https://i.postimg.cc/hvqSCL4j/slanganorytest.gif){ width=45% }|  
 
 ## Constraints
 
