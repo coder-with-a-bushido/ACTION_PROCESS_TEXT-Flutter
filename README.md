@@ -32,10 +32,14 @@ Add this to 'AndroidManifest.xml' in the 'android\app\src\main\' folder.
 ```
 Change the 'android:label' to the action text that you want.
 
-
-
 Then import the package to use it.
 
 ```dart
 import 'package:action_process_text/action_process_text.dart';
 ```
+## Constraints
+
+###   1. It works only for android.
+###   2. It can only be used inside a Stateful widget.
+###   3. Use setState() after updating the value from the action.
+
