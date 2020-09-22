@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Modified some docs.
+
 ## 0.0.2
 
 * Added support for android.
