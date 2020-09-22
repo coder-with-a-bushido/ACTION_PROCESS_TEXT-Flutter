@@ -18,6 +18,22 @@ dependencies:
 ```
 
 Run pub get and get packages.
+
+Add this to 'AndroidManifest.xml' in the 'android\app\src\main\' folder.
+```xml
+  <activity android:name="com.example.action_process_text.ActionProcessTextPlugin"
+            android:label="Action_Text" android:theme="@style/LaunchTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.PROCESS_TEXT" />
+                <data android:mimeType="text/plain"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+   </activity>
+```
+Change the 'android:label' to the action text that you want.
+
+
+
 Then import the package to use it.
 
 ```dart
