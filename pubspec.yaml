@@ -1,8 +1,7 @@
 name: action_process_text
 description: A plugin for ACTION_PROCESS_TEXT in flutter for android.
 version: 0.0.1
-author:
-homepage:
+repository: https://github.com/coder-with-a-bushido/ACTION_PROCESS_TEXT-Flutter
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
