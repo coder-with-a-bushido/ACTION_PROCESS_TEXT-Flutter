@@ -1,3 +1,6 @@
+## 0.0.4
+* Updated README.md
+
 ## 0.0.3
 
 * Modified some docs.
