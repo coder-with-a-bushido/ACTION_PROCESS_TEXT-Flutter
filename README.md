@@ -10,6 +10,12 @@ It can be applied in notes, dictionary, web_search, and many more kinds of apps.
 |:---------------------------------------------------------------:|:------------------------------------:|
 |  ![](https://i.postimg.cc/Jn53nQFV/action-process-texttest.gif) | ![](https://i.postimg.cc/hvqSCL4j/slanganorytest.gif)|  
 
+## Constraints
+
+###   1. It works only for android.
+###   2. It can only be used inside a Stateful widget.
+###   3. Use setState() after updating the value from the action.
+
 ## Include in your project
 
 ```yaml
@@ -37,9 +43,36 @@ Then import the package to use it.
 ```dart
 import 'package:action_process_text/action_process_text.dart';
 ```
-## Constraints
+## Usage
 
-###   1. It works only for android.
-###   2. It can only be used inside a Stateful widget.
-###   3. Use setState() after updating the value from the action.
+Use the constructor of the widget to initialize the action_process_text.
 
+```dart
+class MainPage extends StatefulWidget {
+  @override
+  _MainPageState createState() => _MainPageState();
+}
+
+class _MainPageState extends State<MainPage> {
+  _MainPageState() {
+    initActionProcessText();
+  }
+
+  Future<void> initActionProcessText() async {
+    inputText = await ActionProcessText.getInputText;
+    setState(() {});
+  }
+
+  String inputText = '';
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
+  }
+```
+
+## Bugs/Requests
+
+If you encounter any problems feel free to open an issue.
+Pull request are also welcome.
