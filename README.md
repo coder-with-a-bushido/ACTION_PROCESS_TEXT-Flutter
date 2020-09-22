@@ -1,18 +1,11 @@
 # action_process_text
 
-A plugin for ACTION_PROCESS_TEXT in flutter for android.
+A flutter plugin for ACTION_PROCESS_TEXT implementation in android.
 
-## Getting Started
+## What is it used for?
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
-To add platforms, run `flutter create -t plugin --platforms <platforms> .` under the same
-directory. You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
+It can be used when you need your users to have a shortcut on selecting text, and directly use it in your app.
+It can be applied in notes, dictionary, web_search, and many more kinds of apps.
+| Dictionary                         | Basic Example           |
+|:--------------------------------:|:------------------------------------:|
+![](https://imgur.com/TjqiaGa.gif) |  ![](https://imgur.com/cmbqUjz.gif)
