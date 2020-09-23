@@ -1,4 +1,11 @@
+## 0.0.5
+
+* Fixed an issue with android action.
+* IOS apps wont crash using this plugin from now.
+* Improved README and Example app.
+
 ## 0.0.4
+
 * Updated README.md
 
 ## 0.0.3
