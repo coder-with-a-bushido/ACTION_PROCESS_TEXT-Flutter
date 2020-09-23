@@ -39,12 +39,18 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Plugin example app'),
-      ),
-      body: Center(
-        child: Text('Copied Text: $inputText\n'),
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          title: const Text('ACTION_PROCESS_TEXT Example'),
+        ),
+        body: Center(
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+            Container(child: Text('Selected Text:\n')),
+            Container(child: Text('$inputText')),
+          ]),
+        ),
       ),
     );
   }

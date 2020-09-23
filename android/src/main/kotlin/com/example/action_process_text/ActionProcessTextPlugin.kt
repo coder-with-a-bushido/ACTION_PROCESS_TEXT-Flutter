@@ -3,12 +3,18 @@ package com.example.action_process_text
 import android.content.Intent
 import android.os.Bundle
 import io.flutter.plugin.common.MethodChannel
+import io.flutter.plugin.common.PluginRegistry
 
 
 /** ActionProcessTextPlugin */
 public class ActionProcessTextPlugin : io.flutter.app.FlutterActivity() {
 
   companion object {
+    @JvmStatic
+    fun registerWith(registrarFor: PluginRegistry.Registrar) {
+
+    }
+
     const val CHANNEL = "action_process_text"
   }
 
