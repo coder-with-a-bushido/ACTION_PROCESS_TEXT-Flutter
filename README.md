@@ -35,7 +35,8 @@ Add this to `AndroidManifest.xml` in the `android\app\src\main\` folder.
             </intent-filter>
    </activity>
 ```
-Change the `android:label` to the action text that you want.
+Change the `android:label` from `Action_Text` to the action text that you want to display.
+![](https://imgur.com/FFpUhWF.png)
 
 Then import the package to use it.
 
