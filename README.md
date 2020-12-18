@@ -73,6 +73,8 @@ class _MainPageState extends State<MainPage> {
   }
 ```
 
+If you want to check whether the call was made from the native side, you can use the `ActionProcessText.calledFromNative` . This enables one to navigate to a different screen than usual if needed, by initiating the channel at the start and check if the value is true. If true, the input text will be available. When it's false, the app is opened not by the action_process_text intend, but by the user as in usual cases.
+
 ## Bugs/Requests
 
 If you encounter any problems feel free to open an issue.
