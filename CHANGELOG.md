@@ -1,3 +1,7 @@
+## 0.0.6
+
+* Added multi-page support.
+
 ## 0.0.5
 
 * Fixed an issue with android action.
