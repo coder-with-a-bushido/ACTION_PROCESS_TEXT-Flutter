@@ -12,31 +12,32 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: MainPage(),
-    );
-  }
-}
-
-class MainPage extends StatefulWidget {
-  @override
-  _MainPageState createState() => _MainPageState();
-}
-
-class _MainPageState extends State<MainPage> {
-  _MainPageState() {
+  _MyAppState() {
     initActionProcessText();
   }
 
+  String inputText = '';
   Future<void> initActionProcessText() async {
     inputText = await ActionProcessText.getInputText;
     setState(() {});
   }
 
-  String inputText = '';
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: ActionProcessText.calledFromNative ? MainPage(inputText) : Home(),
+    );
+  }
+}
 
+class MainPage extends StatefulWidget {
+  final String text;
+  MainPage(this.text);
+  @override
+  _MainPageState createState() => _MainPageState();
+}
+
+class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -48,10 +49,19 @@ class _MainPageState extends State<MainPage> {
         body: Center(
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
             Container(child: Text('Selected Text:\n')),
-            Container(child: Text('$inputText')),
+            Container(child: Text('${widget.text}')),
           ]),
         ),
       ),
+    );
+  }
+}
+
+class Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Text('Not called from native side.'),
     );
   }
 }
