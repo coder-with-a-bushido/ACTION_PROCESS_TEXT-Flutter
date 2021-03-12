@@ -6,14 +6,15 @@ A flutter plugin for ACTION_PROCESS_TEXT implementation in android.
 
 It can be used when you want your users to use a shortcut for opening your app when selecting text anywhere in the android environment.
 
-
 ![](https://imgur.com/2sikhjG.gif)
 
 ## Constraints
 
-###   1. It works only for android.
-###   2. It can only be used inside a Stateful widget.
-###   3. Use setState() after updating the value from the action.
+### 1. It works only for android.
+
+### 2. It can only be used inside a Stateful widget.
+
+### 3. Use setState() after updating the value from the action.
 
 ## Include in your project
 
@@ -25,6 +26,7 @@ dependencies:
 Run pub get and get packages.
 
 Add this to `AndroidManifest.xml` in the `android\app\src\main\` folder.
+
 ```xml
   <activity android:name="com.example.action_process_text.ActionProcessTextPlugin"
             android:label="Action_Text" android:theme="@style/LaunchTheme">
@@ -35,6 +37,7 @@ Add this to `AndroidManifest.xml` in the `android\app\src\main\` folder.
             </intent-filter>
    </activity>
 ```
+
 Change the `android:label` from `Action_Text` to the action text that you want to display.
 ![](https://imgur.com/FFpUhWF.png)
 
@@ -43,6 +46,7 @@ Then import the package to use it.
 ```dart
 import 'package:action_process_text/action_process_text.dart';
 ```
+
 ## Usage
 
 Use the constructor of the widget to initialize the action_process_text.
